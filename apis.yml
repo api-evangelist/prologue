@@ -1,7 +1,24 @@
 aid: prologue
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/prologue.png
 name: Prologue
-description: Prologue is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Prologue (Prologue AI) is a multimodal creative operating system that lets teams
+  create, edit, and organize AI-generated images, video, audio, and text in a single workspace.
+  Powered by "Prologue Intent" and a best-in-class catalog of third-party generative models, it
+  targets professional creative workflows for agencies and brands ("crafted, not generated"). It
+  was surfaced as an a16z portfolio company and added to the API Evangelist network as a stub for
+  enrichment. As of this pass no public developer API, documentation, or SDK surface was
+  discoverable — the product site is a consumer/pro web application behind bot protection.
 url: https://raw.githubusercontent.com/api-evangelist/prologue/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +28,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- Generative AI
+- Creative Tools
+- Content Creation
+- Multimodal
+- Media
 apis: []
+common:
+- type: DomainSecurity
+  url: security/prologue-domain-security.yml
+- type: Website
+  url: https://prologue.ai/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
