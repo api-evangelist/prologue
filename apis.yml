@@ -58,6 +58,10 @@ tags_raw:
 - Media
 apis: []
 common:
+- type: Pricing
+  url: https://prologue.ai/plans
+- type: Plans
+  url: plans/prologue-plans-pricing.yml
 - url: https://prologue.ai/blog
   type: Blog
 - type: DomainSecurity
