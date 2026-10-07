@@ -1,0 +1,69 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://prologue.ai/plans
+sources:
+- https://prologue.ai/plans
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T112025
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Monthly/Yearly toggle (Yearly Save 20%) and credit packs mentioned; yearly prices not shown in text.
+plan_count: 6
+plans:
+- name: Free
+  price_text: $ 0
+  price: 0
+  currency: USD
+  period: month
+  unit: credits
+  included_quota: 150 credits (one-time); 150 credits at signup + 150 credits when you install the app
+  overage: Cannot purchase credit packs
+- name: Lite
+  price_text: CAD $ 14 / month
+  price: 14
+  currency: CAD
+  period: month
+  unit: credits
+  included_quota: 1,000 credits/month
+  overage: Access additional credit packs
+- name: Creator
+  price_text: CAD $ 39 / month
+  price: 39
+  currency: CAD
+  period: month
+  unit: credits
+  included_quota: 4,000 credits/month ($ 9.75 per 1,000 credits)
+  overage: Access additional credit packs
+- name: Professional
+  price_text: CAD $ 99 / month
+  price: 99
+  currency: CAD
+  period: month
+  unit: credits
+  included_quota: 12,000 credits/month ($ 8.25 per 1,000 credits)
+  overage: Access additional credit packs
+- name: Business
+  price_text: CAD $ 272 / month
+  price: 272
+  currency: CAD
+  period: month
+  unit: credits
+  included_quota: 32,000 credits / month; $ 8.50 CAD per 1,000 credits; up to 50 seats
+  overage: Slider up to 480k credits
+- name: Enterprise
+  price_text: Custom
+  period: none
+  included_quota: Custom allocation
+rate_limit_statements:
+- Image concurrency The maximum number of jobs you can run at the same time in the image tool 1 4 8 Unlimited
+  Unlimited Unlimited
+- Video concurrency The maximum number of jobs you can run at the same time in the video tool 2 4 Unlimited
+  Unlimited Unlimited
